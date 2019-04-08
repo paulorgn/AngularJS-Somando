@@ -1,0 +1,21 @@
+<script src="angular.min.js"></script>​
+
+<div ng-app ng-init="numeroUm=0;numeroDois=0">​
+
+    <h3>Somando 2 números</h3>
+	<br>	
+
+    <div>​
+        Número 1: <input type="number" min="0" ng-model="numeroUm">​
+    </div>​
+
+    <div>​
+        Número 2: <input type="number" min="0" ng-model="numeroDois">​
+    </div>​
+
+    <div>​
+        <b>TOTAL:</b> {{numeroUm + numeroDois | currency}}​
+    </div>​
+	<br>	
+
+</div>​
